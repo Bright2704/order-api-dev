@@ -229,4 +229,5 @@ def check_sku_in_stores_endpoint(
     """
     API เพื่อตรวจสอบว่าสินค้าที่ระบุ SKU มีอยู่ใน store ไหนบ้าง
     """
+    
     return check_sku_in_stores(sku)
